@@ -1,0 +1,25 @@
+# LLM providers
+groq
+openai
+anthropic
+
+# Core
+python-dotenv
+
+# LangChain (for bike_rental agent)
+langchain
+langchain-groq
+langchain-openai
+langchain-anthropic
+langchain-core
+
+# FutureAGI - Simulation & Evaluation
+agent-simulate[all]
+agent-opt
+ai-evaluation
+
+# LiveKit (for hotel_voice agent)
+livekit-agents[openai,silero,deepgram]~=1.4
+
+# Notebooks
+jupyter
